@@ -103,58 +103,102 @@ body {
   display: block;
 }
 
-/* SERVICES */
+/* SERVICES *//* SERVICES */
 .services {
-  background: #04051b;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-.services-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 24px;
-  align-items: start;
-}
-.service-card {
   background: #ffffff;
-  color: #000;
-  padding: 18px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  min-height: 320px;
+  padding: 80px 0;
 }
 
-/* service image container limits */
-.service-media {
+.services-intro-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 26px;
+  margin-bottom: 50px;
+}
+
+.services-intro-grid p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.services-intro-grid h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #04051b;
+  line-height: 1.4;
+}
+
+/* 4-column service */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+}
+
+/* service cards */
+.service-card {
+  border-radius: 12px;
+  padding: 0;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.service-img {
   width: 100%;
   height: 160px;
-  overflow: hidden;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #f5f5f5;
-}
-.service-media img {
-  max-width: 100%;
-  max-height: 100%;
   object-fit: cover;
   display: block;
 }
 
-/* buttons inside cards */
+/* bg colors in order */
+.sc-red { background: #e60f4e; }
+.sc-dark { background: #04051b; }
+.sc-white { background: #ffffff; color: #000; }
+.sc-cyan { background: #00c6cf; }
+
+/* service content */
+.service-card h3 {
+  margin: 16px;
+  font-size: 20px;
+}
+
+.service-card p {
+  margin: 0 16px 16px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* buttons */
+.btn-dark, .btn-dark-light {
+  display: inline-block;
+  margin: 0 16px 20px;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
 .btn-dark {
-  margin-top: auto;
-  align-self: start;
   background: #000;
   color: #fff;
-  text-decoration: none;
-  padding: 10px 18px;
-  border-radius: 8px;
-  font-weight: 700;
 }
+
+.btn-dark-light {
+  background: #ffffff;
+  color: #04051b;
+}
+
+/* responsive */
+@media (max-width: 900px) {
+  .services-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+  .services-intro-grid { grid-template-columns: 1fr; }
+  .services-grid { grid-template-columns: 1fr; }
+}
+
 
 /* TESTIMONIAL */
 .testimonial {
