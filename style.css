@@ -81,7 +81,7 @@ body {
 
 /* UNIQUE SECTION */
 .unique {
-  background: transparent;
+  background: #00d2d1;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -100,7 +100,7 @@ body {
 
 /* SERVICES */
 .services {
-  background: #0A0F1F;
+  background: #04051b;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -229,7 +229,7 @@ body {
 
 /* FAQ */
 .faq {
-  background: #0A0F1F;
+  background: #04051b;
   padding: 60px 0;
   text-align: center;
 }
@@ -302,9 +302,11 @@ details p {
 
 /* FOOTER */
 .footer {
-  background: #04061B;
+  background: #04051b;
   color: #fff;
   padding: 60px 0;
+  font-size: 46px;
+
 }
 
 .footer-grid {
