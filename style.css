@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #04061B;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 30px;
+}
+
+/* HEADER */
+.header {
+  background: #ffffff;
+  color: #000;
+  padding: 15px 30px;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+.nav-links a { text-decoration: none; color: #000; }
+
+/* HERO */
+.hero-grid {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.hero-title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #FF1369;
+}
+.hero-sub {
+  color: #00D2D1;
+}
+.btn-primary {
+  background: #00D2D1;
+  padding: 12px 28px;
+  border-radius: 6px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* UNIQUE */
+.unique {
+  background: #00D2D1;
+  color: #000;
+}
+.unique-grid {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+/* SERVICES */
+.services {
+  background: #0A0F1F;
+}
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+.service-card {
+  background: #ffffff;
+  color: #000;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* TESTIMONIAL */
+.testimonial {
+  text-align: center;
+  padding: 100px 30px;
+}
+
+/* FAQ */
+.faq {
+  text-align: center;
+  background: #0A0F1F;
+}
+.faq-box {
+  max-width: 900px;
+  margin: auto;
+  text-align: left;
+}
+summary {
+  cursor: pointer;
+  background: #fff;
+  padding: 12px;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+/* CTA */
+.cta {
+  background: #00D2D1;
+  color: #000;
+  text-align: center;
+  padding: 70px 20px;
+}
+.btn-dark {
+  background: #000;
+  padding: 12px 30px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+/* FOOTER */
+.footer {
+  background: #000;
+  padding: 60px 30px;
+}
+.footer-grid {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo {
+  width: 160px;
+}
+
+/* RESPONSIVE */
+@media(max-width: 900px) {
+  .hero-grid,
+  .unique-grid,
+  .footer-grid {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media(max-width: 600px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+  .hero-title {
+    font-size: 36px;
+  }
+}
