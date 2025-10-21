@@ -40,7 +40,7 @@ body {
 /* HERO */
 .hero {
   background: #04051b;
-  padding: 80px 0;
+  padding: 60px 0;
 }
 .hero-grid {
   display: grid;
@@ -84,6 +84,9 @@ body {
   background: #00d2d1;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.unique-title {
+  font-size: 46px;
 }
 .unique-grid {
   display: grid;
@@ -232,11 +235,13 @@ body {
   background: #04051b;
   padding: 60px 0;
   text-align: center;
+  font-size: 46px;
 }
 
 .faq-intro { 
   color: #b8c0c8; 
   margin-bottom: 18px; 
+  
 }
 
 .faq-box { 
