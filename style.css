@@ -350,10 +350,9 @@ details p {
   padding: 48px 0;
   text-align: center;
 }
-.cta-title{
-  font-size: 30px;
-}
-.cta-inner { display:flex; gap:20px;    align-items:left; justify-content:center; flex-wrap:wrap; }
+
+.cta-inner { display:flex; gap:20px; align-items:left; justify-content:center; flex-wrap:wrap; }
+.cta-title{ font-size: 30px; }
 .cta .btn-dark { background: #000; color: #fff; }
 
 /* FOOTER */
