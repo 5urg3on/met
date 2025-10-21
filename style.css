@@ -231,21 +231,40 @@ body {
 .faq {
   background: #0A0F1F;
   padding: 60px 0;
+  text-align: center; /* center the h2 and intro */
 }
-.faq-intro { color: #b8c0c8; margin-bottom: 18px; }
-.faq-box { display: grid; gap: 10px; }
+
+.faq-intro { 
+  color: #b8c0c8; 
+  margin-bottom: 18px; 
+}
+
+.faq-box { 
+  display: grid; 
+  gap: 10px; 
+  max-width: 900px;
+  margin: 0 auto; /* keep FAQ items centered in a narrower column */
+  text-align: left; /* reset text alignment for the accordion items */
+}
+
 details {
   background: #ffffff;
   color: #000;
   padding: 12px 16px;
   border-radius: 8px;
 }
+
 details summary {
   cursor: pointer;
   font-weight: 700;
   list-style: none;
 }
-details p { margin: 10px 0 0; color: #222; }
+
+details p { 
+  margin: 10px 0 0; 
+  color: #222; 
+}
+
 
 /* CTA */
 .cta {
