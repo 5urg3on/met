@@ -1,43 +1,136 @@
-<section class="hero">
-  <div class="container">
-    <div class="hero-left">
-      <p class="hero-sub">Power your business with technology</p>
-      <h1 class="hero-title">
-        Build, scale, and<br>
-        engage your digital<br>
-        presence effectively
-      </h1>
-      <button class="hero-btn">View All Services ⬇</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SyItechnology</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="nav-container">
+      <img src="./images/logo.png" alt="logo" class="logo">
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
     </div>
+  </header>
 
-    <div class="hero-right">
-      <img src="https://via.placeholder.com/500x400" alt="hero image">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-left">
+        <p class="hero-sub">Power your business with technology</p>
+        <h1 class="hero-title">Build, scale, and<br>engage your digital<br>presence effectively</h1>
+        <a href="#" class="btn-primary">View All Services ⬇</a>
+      </div>
+      <div class="hero-right">
+        <img src="./images/hero.png" alt="hero">
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- Frame 2-->
-
-<div style="display:flex;align-items:center;justify-content:space-between;background:#00c6cf;padding:15px 10px 15px 10px;">
-  <div style="flex:1;text-align:center;font-size:20px;font-weight:bold;">
-    <h1>Why we are unique</h1>
-    Our services are tailored to deliver effective, customized solutions that align with each client’s specific goals and challenges.<br>
-
-Our team of experienced professionals is committed to helping clients succeed through innovation, reliability, and ongoing support that ensures long-term growth.
-  </div>
-   <div class="hero-right">
-      <img src="https://via.placeholder.com/500x400" alt="hero image">
+  <!-- UNIQUE SECTION -->
+  <section class="unique">
+    <div class="container unique-grid">
+      <div>
+        <h2>Why we are unique</h2>
+        <p>Our services are tailored to deliver effective, customized solutions...</p>
+      </div>
+      <div class="unique-img">
+        <img src="./images/unique.png" alt="unique">
+      </div>
     </div>
-</div>
-<!-- End Frame 2-->
+  </section>
 
-<div style="display:flex;align-items:center;justify-content:space-between;background:#00c6cf;padding:15px 10px 15px 10px;">
-  <div style="flex:1;text-align:center;font-size:20px;font-weight:bold;">
-    Have a project to start ?
-  </div>
-  <div style="flex:1;text-align:center;">
-    <a href="#" style="background:#04051b;color:#ffffff;padding:10px 18px;text-decoration:none;border-radius:6px;font-weight:bold;">
-      Get Started
-    </a>
-  </div>
-</div>
+  <!-- SERVICES -->
+  <section class="services">
+    <div class="container">
+      <div class="services-grid">
+
+        <div class="service-card">
+          <img src="./images/service1.png">
+          <h3>IT Support Services</h3>
+          <p>We deliver responsive technical assistance...</p>
+          <a href="#">Learn more →</a>
+        </div>
+
+        <div class="service-card">
+          <img src="./images/service2.png">
+          <h3>Learning Management System</h3>
+          <p>Empower your learners...</p>
+          <a href="#">Learn more →</a>
+        </div>
+
+        <div class="service-card">
+          <img src="./images/service3.png">
+          <h3>Website Design</h3>
+          <p>We design and develop professional websites...</p>
+          <a href="#">Learn more →</a>
+        </div>
+
+        <div class="service-card">
+          <img src="./images/service4.png">
+          <h3>E-commerce Solution</h3>
+          <p>Enhance your online business...</p>
+          <a href="#">Learn more →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIAL -->
+  <section class="testimonial">
+    <h2>What our customers thought !</h2>
+    <div class="testimonial-box">
+      <p>“SyItechnology transformed how we handle IT operations...”</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="container faq-box">
+
+      <details><summary>What services does SyItechnology offer?</summary>
+      <p>We provide a range of IT solutions...</p></details>
+
+      <details><summary>Do you work with small or large businesses?</summary>
+      <p>We serve both.</p></details>
+
+      <details><summary>Can you redesign an existing website?</summary>
+      <p>Yes we can.</p></details>
+
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <h2>Have a project to start ?</h2>
+    <a href="#" class="btn-dark">Get started ↗</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="./images/logo.png" class="footer-logo">
+        <p>SyItechnology is a leading technology solutions provider...</p>
+      </div>
+      <div>
+        <input type="email" placeholder="Email Address">
+        <button class="btn-primary">Subscribe</button>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
