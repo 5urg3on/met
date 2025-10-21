@@ -412,7 +412,7 @@ details p {
 
 /* LEFT COLUMN */
 .footer-left {
-  width: 25%;
+  width: 40%;
   display: flex;
   flex-direction: column; /* stack logo on top of text */
   align-items: flex-start; /* align to left */
@@ -435,7 +435,7 @@ details p {
 
 /* RIGHT COLUMN (NOTION FORM) */
 .footer-right { 
-  width: 75%; 
+  width: 60%; 
   display: flex; 
   align-items: flex-start; /* align from top */
   justify-content: center; 
