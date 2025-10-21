@@ -278,37 +278,61 @@ details p {
 
 /* FOOTER */
 .footer {
-  background: #000;
+  background: #04061B;
   color: #fff;
-  padding: 40px 0;
+  padding: 60px 0;
 }
+
 .footer-grid {
   display: flex;
   gap: 24px;
-  align-items: center;
   justify-content: space-between;
+  align-items: flex-start; /* align items from top */
 }
-.footer-left {
-  display: flex;
-  gap: 18px;
-  align-items: center;
-  width: 60%;
-}
-.footer-logo { width: 140px; height: auto; display:block; }
-.footer-text { margin: 0; color: #cbd5df; line-height: 1.4; }
 
-/* right column ready for embed */
-.footer-right { width: 35%; display:flex; align-items:center; justify-content:center; }
+/* LEFT COLUMN */
+.footer-left {
+  width: 60%;
+  display: flex;
+  flex-direction: column; /* stack logo on top of text */
+  align-items: flex-start; /* align to left */
+  gap: 14px;
+}
+
+.footer-logo { 
+  width: 140px; 
+  height: auto; 
+  display: block; 
+}
+
+.footer-text { 
+  margin: 0; 
+  color: #cbd5df; 
+  line-height: 1.5; 
+  max-width: 90%;
+  font-size: 15px;
+}
+
+/* RIGHT COLUMN (NOTION FORM) */
+.footer-right { 
+  width: 35%; 
+  display: flex; 
+  align-items: flex-start; /* align from top */
+  justify-content: center; 
+}
+
 .form-placeholder {
-  width:100%;
-  min-height: 64px;
+  width: 100%;
+  min-height: 120px;
   border-radius: 8px;
   background: rgba(255,255,255,0.03);
-  display:flex;
-  align-items:center;
-  justify-content:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #bfc8d2;
+  font-size: 15px;
 }
+
 
 /* Responsive breakpoints */
 @media (max-width: 1100px) {
