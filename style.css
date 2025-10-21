@@ -118,14 +118,14 @@ body {
 
 .services-intro-grid p {
   font-size: 16px;
-  color: #000;
+  /* color: #000; */
   line-height: 1.6;
 }
 
 .services-intro-grid h2 {
   font-size: 28px;
   font-weight: 700;
-  color: #000;
+  /* color: #000; */
   line-height: 1.4;
 }
 
@@ -352,7 +352,10 @@ details p {
 }
 
 .cta-inner { display:flex; gap:20px; align-items:left; justify-content:center; flex-wrap:wrap; }
-.cta .cta-title{ font-size: 30px; }
+.cta .cta-title{
+  font-size: 28px;
+  font-weight: 700;
+}
 .cta .btn-dark { background: #000; color: #fff; }
 
 /* FOOTER */
