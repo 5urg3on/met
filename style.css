@@ -434,6 +434,18 @@ details p {
   font-size: 15px;
 }
 
+/*Footer Link */
+.footer a {
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #cbd5df;
+}
+
+
 /* RIGHT COLUMN (NOTION FORM) */
 .footer-right { 
   width: 60%; 
