@@ -352,12 +352,31 @@ details p {
   text-align: center;
 }
 
-.cta-inner { display:flex; gap:20px; align-items:left; justify-content:center; flex-wrap:wrap; }
-.cta .cta-title{
+.cta-inner {
+  display:flex;
+  gap:40px;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.cta-title {
   font-size: 60px;
   font-weight: 700;
+  margin: 0;
 }
-.cta .btn-dark { background: #04051b; color: #fff; }
+
+/* Bigger button, fixed size */
+.cta .btn-dark {
+  background: #04051b;
+  color: #fff;
+  padding: 18px 28px;
+  font-size: 18px;
+  border-radius: 10px;
+  display: inline-block;
+  text-decoration: none;
+}
+
 
 /* notion popup form */
 /* MODAL */
