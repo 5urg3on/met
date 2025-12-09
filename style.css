@@ -56,14 +56,14 @@ body {
 }
 .hero-title {
   color: #FF1369;
-  font-size: 46px;
+  font-size: 60px;
   line-height: 1.08;
   margin: 0 0 22px;
   font-weight: 800;
 }
 .btn-primary {
   background: #00D2D1;
-  color: #000;
+  color: #fff;
   padding: 12px 22px;
   border-radius: 8px;
   text-decoration: none;
@@ -81,12 +81,13 @@ body {
 
 /* UNIQUE SECTION */
 .unique {
-  background: #00d2d1;
+ background: #ffffff;
+  color: #04051b;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 .unique-title {
-  font-size: 46px;
+  font-size: 60px;
   font-weight: 700;
   margin-bottom: 14px;
 }
@@ -117,13 +118,13 @@ body {
 }
 
 .services-intro-grid p {
-  font-size: 16px;
+  font-size: 20px;
   /* color: #000; */
   line-height: 1.6;
 }
 
 .services-intro-grid h2 {
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 700;
   /* color: #000; */
   line-height: 1.4;
